@@ -10,14 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            name "GithubPackages"
-            url = uri("https://maven.pkg.github.com/trustwallet/wallet-core")
-            credentials {
-                username = "ohdcthang"
-                password = "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"
-            }
-        }
+
     }
 }
 rootProject.name = "coin98-kolin-core"
